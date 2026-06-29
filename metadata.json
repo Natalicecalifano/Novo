@@ -1,0 +1,6 @@
+{
+  "name": "Eniesse Grow",
+  "description": "The leading education & acceleration platform for artisanal, natural and vegan producers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

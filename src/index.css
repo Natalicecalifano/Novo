@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-50: #fcfbf7;
+  --color-brand-100: #f5f2e6;
+  --color-brand-200: #eadecd;
+  --color-brand-300: #dba671;
+  --color-brand-400: #cc844c;
+  --color-brand-500: #ad6235;
+  --color-brand-600: #8c4728;
+  --color-brand-700: #6b311e;
+  --color-brand-800: #4d2015;
+  --color-brand-900: #33120d;
+
+  --color-leaf-50: #f6f8f5;
+  --color-leaf-100: #e9eee6;
+  --color-leaf-200: #ccd9c7;
+  --color-leaf-600: #405c3b;
+  --color-leaf-700: #31472d;
+  --color-leaf-800: #233320;
+  --color-leaf-900: #152013;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom subtle styles */
+.text-balance {
+  text-wrap: balance;
+}
+
